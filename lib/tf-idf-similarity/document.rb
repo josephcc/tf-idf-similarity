@@ -8,6 +8,8 @@ class TfIdfSimilarity::Document
   attr_reader :term_counts
   # The number of tokens in the document.
   attr_reader :size
+  # The tokens in the document.
+  attr_reader :tokens
 
   # @param [String] text the document's text
   # @param [Hash] opts optional arguments
